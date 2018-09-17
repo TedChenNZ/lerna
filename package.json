@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "lerna": "3.4.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "watch": "lerna run watch",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "start": "concurrently \"npm run watch \" \"lerna run start --stream\""
+  }
+}

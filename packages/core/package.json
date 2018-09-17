@@ -1,0 +1,31 @@
+{
+  "name": "@TedChenNZ/core",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "babel src -d lib --config-file ./.babelrc --extensions '.js,.ts' --watch",
+    "build": "babel src -d lib --config-file ./.babelrc --extensions '.js,.ts'",
+    "lint": "eslint src/**/*.js && tslint src/**/*.ts*",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "7.0.0",
+    "@babel/plugin-proposal-decorators": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.0.0",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "3.0.1"
+  }
+}
