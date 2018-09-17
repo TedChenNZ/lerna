@@ -1,5 +1,5 @@
 {
-  "name": "@TedChenNZ/app2",
+  "name": "@sononi/app2",
   "version": "0.0.2",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -33,6 +33,6 @@
     "typescript": "3.0.1"
   },
   "dependencies": {
-    "@TedChenNZ/core": "^0.0.2"
+    "@sononi/core": "^0.0.2"
   }
 }

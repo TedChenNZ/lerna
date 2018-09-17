@@ -1,3 +1,3 @@
 export function core() {
-  return 2;
+  return 1;
 }

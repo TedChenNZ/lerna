@@ -1,4 +1,4 @@
-import { core } from '@TedChenNZ/core/src/core';
+import { core } from '@sononi/core/src/core';
 
 it('core', () => {
   expect(core()).toEqual(1);
