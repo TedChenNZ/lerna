@@ -1,6 +1,6 @@
 {
   "name": "@TedChenNZ/app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,6 +33,6 @@
     "typescript": "3.0.1"
   },
   "dependencies": {
-    "@TedChenNZ/core": "^0.0.0"
+    "@TedChenNZ/core": "^0.0.1"
   }
 }
