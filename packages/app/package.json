@@ -1,6 +1,6 @@
 {
   "name": "@sononi/app",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,6 +33,6 @@
     "typescript": "3.0.1"
   },
   "dependencies": {
-    "@sononi/core": "^0.0.4"
+    "@sononi/core": "^0.0.5"
   }
 }
